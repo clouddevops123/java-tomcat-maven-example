@@ -15,20 +15,18 @@ Edit tomcat-users.xml in tomcat ::
 	<user password="password" roles="manager-gui" username="admin"/>
 	<user password="password" roles="admin,admin-script,manager-gui,manager-script,manager-jmx,manager-status" username="admin"/>
 
-**Edit settings.xml in maven** ::
+Edit settings.xml in maven ::
 
-# Tomcat information
-   <server>
-  <id>TomcatServer</id>
-  <username>admin</username>
-  <password>password</password>
-   </server>
-# Nexus information
-    <server>     
-     <id>nexus-site</id>
-     <username>admin</username>
-     <password>dba1e994-b90d-498f-88fd-7b9ee8291627</password>
-    </server>
+<server>
+<id>TomcatServer</id>
+<username>admin</username>
+<password>password</password>
+</server>
+<server>     
+<id>nexus-site</id>
+<username>admin</username>
+<password>dba1e994-b90d-498f-88fd-7b9ee8291627</password>
+</server>
 
 ---------------------------------
 **Automation:**
