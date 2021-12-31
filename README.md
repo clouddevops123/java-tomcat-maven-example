@@ -18,6 +18,7 @@ Edit tomcat-users.xml in tomcat ::
 **Edit settings.xml** in maven
 
 # Tomcat information ::
+
    <server>
   <id>TomcatServer</id>
   <username>admin</username>
@@ -26,6 +27,7 @@ Edit tomcat-users.xml in tomcat ::
    
    
 # Nexus information ::
+
     <server>     
      <id>nexus-site</id>
      <username>admin</username>
