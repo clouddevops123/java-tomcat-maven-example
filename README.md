@@ -15,18 +15,17 @@ Edit tomcat-users.xml in tomcat ::
 	<user password="password" roles="manager-gui" username="admin"/>
 	<user password="password" roles="admin,admin-script,manager-gui,manager-script,manager-jmx,manager-status" username="admin"/>
 	
-	::
 
 ---------------------------------
 **
 **Automation:**
-Deploying Project War files to Tomcat using Maven ** ::
-
+Deploying Project War files to Tomcat using Maven ** 
+::
 mvn install tomcat7:deploy
 
 --------------------------------
 
 ****Automation:**
-Deploying Project snapshots to nexus using Maven** ::
-
+Deploying Project snapshots to nexus using Maven** 
+::
 mvn clean deploy
