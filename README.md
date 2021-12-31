@@ -17,16 +17,16 @@ Edit tomcat-users.xml in tomcat ::
 
 Edit settings.xml in maven ::
 
-<server>
-<id>TomcatServer</id>
-<username>admin</username>
-<password>password</password>
-</server>
-<server>     
-<id>nexus-site</id>
-<username>admin</username>
-<password>dba1e994-b90d-498f-88fd-7b9ee8291627</password>
-</server>
+	<server>
+	<id>TomcatServer</id>
+	<username>admin</username>
+	<password>password</password>
+	</server>
+	<server>     
+	<id>nexus-site</id>
+	<username>admin</username>
+	<password>dba1e994-b90d-498f-88fd-7b9ee8291627</password>
+	</server>
 
 ---------------------------------
 **Automation:**
