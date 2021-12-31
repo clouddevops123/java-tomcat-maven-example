@@ -24,10 +24,7 @@ Edit tomcat-users.xml in tomcat ::
   <username>admin</username>
   <password>password</password>
    </server>
-   
-   
-# Nexus information ::
-
+# Nexus information
     <server>     
      <id>nexus-site</id>
      <username>admin</username>
