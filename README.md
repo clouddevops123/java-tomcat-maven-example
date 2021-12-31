@@ -17,13 +17,15 @@ Edit tomcat-users.xml in tomcat ::
 	
 
 ---------------------------------
-
-Automation:
+**
+Automation:**
 Deploying Project War files to Tomcat using Maven ::
-mvn install tomcat7:deploy
+
+	mvn install tomcat7:deploy
 
 --------------------------------
-
-Automation:
+**
+Automation:**
 Deploying Project snapshots to nexus using Maven ::
-mvn clean deploy
+
+	mvn clean deploy
