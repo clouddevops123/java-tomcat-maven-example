@@ -15,10 +15,9 @@ Edit tomcat-users.xml in tomcat ::
 	<user password="password" roles="manager-gui" username="admin"/>
 	<user password="password" roles="admin,admin-script,manager-gui,manager-script,manager-jmx,manager-status" username="admin"/>
 
-**Edit settings.xml** in maven
+**Edit settings.xml in maven** ::
 
-# Tomcat information ::
-
+# Tomcat information
    <server>
   <id>TomcatServer</id>
   <username>admin</username>
