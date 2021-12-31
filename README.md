@@ -1,5 +1,5 @@
-# java-tomcat-maven-example
-Prerequisites:
+**# java-tomcat-maven-example
+Prerequisites:**
 
 Edit tomcat-users.xml in tomcat ::
 
@@ -18,15 +18,15 @@ Edit tomcat-users.xml in tomcat ::
 	::
 
 ---------------------------------
-
-'Automation:'
-Deploying Project War files to Tomcat using Maven
+**
+**Automation:**
+Deploying Project War files to Tomcat using Maven ** ::
 
 mvn install tomcat7:deploy
 
 --------------------------------
 
-"Automation:"
-Deploying Project snapshots to nexus using Maven
+****Automation:**
+Deploying Project snapshots to nexus using Maven** ::
 
 mvn clean deploy
